@@ -1,0 +1,4 @@
+1. O valor de N escolhido para o trabalho foi igual a 9.
+2. O delay ajustado no arduino foi de 5000 ms.
+3. Stop time no gráfico do proteus foi de 230 segundos.
+4. Arquivo dos dados gerados é o "forno.DAT". O mesmo se encontra nesta pasta.
