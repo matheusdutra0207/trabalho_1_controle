@@ -1,0 +1,5 @@
+t = table2array(forno(:,1));
+INPUT = table2array(forno(:,2));
+OUTPUT = table2array(forno(:,3));
+[INPUT,~] = resample(INPUT, t, 1000, 1, 1, 10, 5);
+[OUTPUT, t] = resample(OUTPUT, t, 1000, 1, 1, 10, 5);
