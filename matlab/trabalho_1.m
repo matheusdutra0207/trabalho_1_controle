@@ -1,11 +1,11 @@
 
-% Função de transferncia gerada pelo ident com uma a fitness de 94.69%
-G = tf(0.6342, [1 0.7862], 'InputDelay', 0.399);
+% Função de transferncia gerada pelo ident com uma a fitness de 94.81%
+G = tf(0.6367, [1 0.7895], 'InputDelay', 0.404);
 
-% aproximação de Padé de 1ª e 10
+% aproximação de Padé de 1º 
 Gp1 = pade(G, 1);
 
-% aproximação de Padé de 1ª e 10
+% aproximação de Padé de 10º
 Gp10 = pade(G, 10);
 
 tempo = 10;
